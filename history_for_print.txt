@@ -1,0 +1,286 @@
+    1  systemctl start jenkins
+    2  sudo systemctl start jenkins
+    3  systemctl status jenkins
+    4  yum install -y java-1.8.0-openjdk
+    5  clear
+    6  yum install -y wget
+    7  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+    8  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+    9  yum install -y jenkins
+   10  clear
+   11  systemctl start jenkins
+   12  cat /var/lib/jenkins/secrets/initialAdminPassword
+   13  yum install git
+   14  git --version
+   15  cd /var/lib/jenkins/workspace/pack
+   16  ls -lrt
+   17  cd target
+   18  ls -lrt
+   19  cd
+   20  clear
+   21  cs /etc/ssh
+   22  cd /etc/ssh
+   23  vi sshd_config
+   24  service sshd restart
+   25  service jenkins status
+   26  ps -ef | grep jenkins
+   27  cat /etc/passwd
+   28  chsh -s /bin/bash jenkins
+   29  clear
+   30  cat /etc/passwd
+   31  su -jenkins
+   32  su - jenkins
+   33  service jenkins status
+   34  service jenkins stop
+   35  service jenkins status
+   36  service jenkins start
+   37  service jenkins status
+   38  clear
+   39  jenkins
+   40  user jenkins
+   41  host jenkins
+   42  bash jenkins
+   43  sudo bash jenkins
+   44  su - jenkins
+   45  su - jenkins
+   46  su - jenkins
+   47  yum install -y docker
+   48  docker images
+   49  docker search hello-world
+   50  service docker start
+   51  docker images
+   52  docker search hello-world
+   53  docker pull hello-world
+   54  docker images
+   55  docker run hello-world
+   56  docker ps -1
+   57  docker ps -a
+   58  docker search ubuntu
+   59  docker pull ubuntu
+   60  docker run ubuntu
+   61  docker ps -a
+   62  clear
+   63  docker run -it ubuntu:latest
+   64  docker run -itd  ubuntu:latest
+   65  docker ps
+   66  docter attach 2a3f54f1604f
+   67  docker attach 2a3f54f1604f
+   68  docker images
+   69  clear
+   70  docker ps -a
+   71  docker run -itd --name=ritesh-container ubuntu:latest
+   72  docker ps -a
+   73  clear
+   74  docker stop ritesh-container
+   75  docker ps -a
+   76  docker ps
+   77  docker start ritesh-container
+   78  docker ps
+   79  docker inspect ritesh-container
+   80  whoami
+   81  pws
+   82  pwd
+   83  cd
+   84  cd ..
+   85  cd --
+   86  cd --
+   87  pwd
+   88  cd errit3
+   89  cd /var/lib/docker/volumes
+   90  ls -lrt
+   91  cd
+   92  cd errit3
+   93  exit
+   94  pwd
+   95  ls
+   96  ls -lrt
+   97  touch file1.java
+   98  touch file2.class
+   99  ls -ltr
+  100  docker run -it -v "$pwd":tmp ubuntu:latest /bin/bash
+  101  clear
+  102  docker run -it -v "$pwd":/tmp ubuntu:latest /bin/bash
+  103  cd tmp
+  104  mkdir tmp
+  105  docker run -it -v "$pwd":/tmp ubuntu:latest /bin/bash
+  106  docker run -it -v "$pwd":/tmp ubuntu:latest /bin/bash
+  107  cd docker-current
+  108  cd bin
+  109  cd bash
+  110  cd /var/lib/docker
+  111  ls
+  112  cd tmp
+  113  ls
+  114  ls -lrt
+  115  pwd
+  116  docker run -it -v /var/lib/docker/tmp ubuntu:latest /bin/bash
+  117  ls -lrt
+  118  cd
+  119  cd /home/errit3
+  120  ls -lrt
+  121  rmdir tmp
+  122  clear
+  123  ls
+  124  cd home
+  125  cd /home
+  126  ls
+  127  cd ..
+  128  cd ..
+  129  cd /home/errit3
+  130  ls
+  131  docker run ubuntu
+  132  ls
+  133  docker touch ubuntu
+  134  docker ps
+  135  docker ps -a
+  136  clear
+  137  docker ps
+  138  docker touch ritesh-container
+  139  docker run -it ubuntu
+  140  docker run -it ubuntu:latest
+  141  docker ps
+  142  docker rm 8941c09e952c
+  143  docker rm 8941c09e952c -f
+  144  docker ps
+  145  docker ps -a
+  146  clear
+  147  docker run -it -v /var/lib/docker/tmp ubuntu:latest /bin/bash
+  148  ls
+  149  cd /b/n/bash
+  150  cd /bin/bash
+  151  cd bin/bash
+  152  cd
+  153  ls
+  154  ls -lhrt
+  155  cd/home
+  156  cd /home
+  157  ls
+  158  ls -lrt
+  159  cd /home/errit3
+  160  ls lrt
+  161  ls -lrt
+  162  docker ps
+  163  docker ps -a
+  164  docker rm 53a5ba85f922
+  165  docker ps -a
+  166  mkdir tmp
+  167  ls
+  168  docker run -it -v /var/lib/docker/tmp ubuntu:latest /home/errit3/tmp
+  169  docker run -it -v "$pwd":/tmp ubuntu:latest /bin/bash
+  170  clear
+  171  docker tag ubuntu:latest rit
+  172  docker images
+  173  docker tag
+  174  docker tag ubuntu:latest rit:pat
+  175  docker images
+  176  docker push pathakritesh/test
+  177  docker run -itd --name ritesh ubuntu
+  178  docker ps -a
+  179  clear
+  180  docker ps
+  181  docker attach ritesh
+  182  docker ps
+  183  clear
+  184  docker volume ls
+  185  clear
+  186  docker volume ls
+  187  docker run -it --name sid -v ritesh11:/data ubuntu
+  188  docker volume ls
+  189  docker volume ritesh11
+  190  docker inspect ritesh11
+  191  cd var/lib/docker/volumes/rites
+  192  cd var/lib/docker/volumes/rites
+  193  cd var/lib/docker/volumes/ritesh11/_data
+  194  clear
+  195  docker inspect ritesh11
+  196  cd /var/lib/docker/volumes/ritesh11/_data
+  197  ls
+  198  docker attach sid
+  199  ls
+  200  docker cp 7f63c40c802a:/tmp/a.txt /tmp/
+  201  docker ps
+  202  clear
+  203  docker attach sid
+  204  docker ps
+  205  docker ps -a
+  206  docker attach sid
+  207  docker run -it sid
+  208  docker run -it 7f63c40c802a
+  209  docker run 7f63c40c802a
+  210  docker images
+  211  docker run -it rit:pat
+  212  service docker status
+  213  docker start $(docker ps -a -q)
+  214  docker ps
+  215  docker network
+  216  docker network ls
+  217  docker network inspect bridge
+  218  docker network inspect host
+  219  docker network inspect none
+  220  clear
+  221  docker network create -d bridge testing
+  222  docker network ls
+  223  docker images
+  224  docker run -itd --name network --network testing ubuntu
+  225  docker network ls 
+  226  docker network inspect testing
+  227  clear
+  228  yum install wget
+  229  yum install vlc
+  230  docker run -itd --name port -P nginx
+  231  docker ps
+  232  docker inspect port
+  233  curl ifconfig.io
+  234  docker run -itd --name port1 -p 80:80 nginx
+  235  docker run -itd --name port2 -p 81:80 nginx
+  236  docker run -itd --name port3 -p 8001:8080 tomcat
+  237  clear
+  238  docker ps
+  239  docker export 2afa94c60b4a > a.tar
+  240  ls -lrt
+  241  ls -lhrt
+  242  docker ps
+  243  clear
+  244  docker import - tar < a.tar
+  245  docker images
+  246  docker save -o image.tar rit:pat 
+  247  ls -lhrt
+  248  docker images
+  249  docker load <image.tar
+  250  docker images
+  251  docker save -o /tmp/image.tar rit:pat 
+  252  cd tmp
+  253  ls
+  254  cd /tmp
+  255  ls
+  256  clear
+  257  mkdir docker
+  258  cd docker 
+  259  pwd
+  260  vi Dockerfile
+  261  docker build -t rites/image:latest .
+  262  docker images
+  263  docker search registry
+  264  docker pull registry:2
+  265  docker images
+  266  docker run -itd --name registry -P registry:2
+  267  docker ps
+  268  docker run -itd --name registry1 -p 5000:5000 registry:2
+  269  docker ps
+  270  curl htto://localhost:5000/v2
+  271  curl http://localhost:5000/v2
+  272  curl ifconfig.co
+  273  docker images
+  274  docker tag ubuntu localhost:5000/ubuntu:v1
+  275  docker images
+  276  docker push localhost:5000/ubuntu:v1
+  277  clear
+  278  whoami
+  279  service docker status
+  280  history
+  281  vi history
+  282  export HISTCONTROL=ignoredups
+  283  history
+  284  cat export HISTCONTROL=ignoredups
+  285  vi .bash_profile
+  286  history > history_for_print.txt
