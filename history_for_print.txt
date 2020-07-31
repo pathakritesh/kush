@@ -284,3 +284,167 @@
   284  cat export HISTCONTROL=ignoredups
   285  vi .bash_profile
   286  history > history_for_print.txt
+  287  ls
+  288  more  history_for_print.txt
+  289  history
+  290  export HISTCONTROL=ignoredups
+  291  history
+  292  ls
+  293  vi history_for_print.txt
+  294  clear
+  295  git login
+  296  cd
+  297  git login
+  298  git push origin master
+  299  /home/errit3
+  300  cd /home/errit3
+  301  git init
+  302  ls
+  303  git add "history_for_print.txt"
+  304  git commit -m  "docker"
+  305  git status
+  306  git push origin master 
+  307  git remote "https://github.com/pathakritesh/kush.git"
+  308  git git git 
+  309  clear
+  310  git remote add origin "   or: git remote rename <old> <new>
+  311     or: git remote rename <old> <new>
+  312  clear
+  313  git remote add origin "https://github.com/pathakritesh/kush.git"
+  314  git push origin master
+  315  git push origin master -f
+  316  clear
+  317  docker images
+  318  docker rmi rit
+  319  docker images
+  320  clear
+  321  docker run -itd --name=jiohai ubuntu:latest
+  322  docker ps
+  323  docker ps -a
+  324  clear
+  325  docker run -itd --name=raka ubuntu:latest
+  326  docker ps
+  327  clear
+  328  docker tag ubuntu:latest rit5
+  329  docker images
+  330  docker tag ubuntu:latest rit6:try
+  331  docker images
+  332  docker run -itd --name ritesh888 ubuntu
+  333  docker ps
+  334  docker run -it --name sid1 -v ritesh111:/data1 ubuntu
+  335  docker volume ls
+  336  docker volume ritesh111
+  337  docker inspect  ritesh111
+  338  cd var/lib/docker/volumes/ritesh111/_data
+  339  cd var/lib/docker/volumes/ritesh111
+  340  cd /var/lib/docker/volumes/ritesh111/_data
+  341  ls
+  342  docker ps -a
+  343  docker attach ffb13690fc60
+  344  docker run -it ffb13690fc60
+  345  docker start  ffb13690fc60
+  346  docker attach ffb13690fc60
+  347  docker network
+  348  docker network ls
+  349  docker inspect bridge 
+  350  docker inspect host
+  351  clear
+  352  docker network create -d bridge test44
+  353  docker network ls
+  354  docker run -itd --name network1 --network test44 ubuntu
+  355  docker network inspect test44
+  356  clear
+  357  docker run -itd --name port11 -p 85:80 ngix
+  358  docker run -itd --name port11 -p 85:80 nginx
+  359  docker ps
+  360  curl ifconfig.io
+  361  docker run -itd --name tomo 8055:8080 tomcat
+  362  docker run -itd --name tomo -p  8055:8080 tomcat
+  363  clear
+  364  docker ps
+  365  docker export 061b2d5209a0 > b.tar
+  366  ls -lhrt
+  367  docker import - tar <b.tar
+  368  docker images
+  369  docker import - tarachand <b.tar
+  370  docker images
+  371  docker save -o image11.tar rit:pat
+  372  ls -lhrt
+  373  clear
+  374  docker load < image11.tar
+  375  docker run -itd --name registry3 -p 5001:5000 registry:2
+  376  docker ps
+  377  curl http://localhost:5001/v2
+  378  docker tag ubuntu localhost:5001/ubuntu:v1
+  379  docker images
+  380  curl ifconfig.io
+  381  docker push localhost:5001/ubuntu:v1
+  382  clear
+  383  yum install -y kubectl
+  384  export PROJECT_ID=mineral-actor-284211
+  385  gcloud init
+  386  clear
+  387  vi /etc/sudo
+  388  cd /sysconfig
+  389  cd /etc/sysconfig
+  390  vi /etc/sudo
+  391  vi /etc/sudoers
+  392  cd /home/jenkins/workspace/pack/target/address
+  393  cd
+  394  cd 
+  395  cd /home/jenkins/workspace/pack/target/addressbook.war
+  396  cd /home/jenkins/workspace/pack/target
+  397  cat /home/jenkins/workspace/pack/target/addressbook.war
+  398  ls
+  399  ls -lrt
+  400  su -jenkins
+  401  su - jenkins
+  402  docker ps
+  403  service docker status
+  404  docker stop $(docker ps -a -q)
+  405  docker rmi $(docker ps -a -q)
+  406  docker rm $(docker ps -a -q)
+  407  docker ps
+  408  docker image
+  409  docker images
+  410  docker rmi tar
+  411  docker rmi rit
+  412  docker rmi rit:pat
+  413  docker rmi rit5
+  414  docker rmi rit6
+  415  docker rmi rit6:try
+  416  clear
+  417  docker images
+  418  docker rmi tarachand
+  419  docker images
+  420  docker rmi rites/image
+  421  docker images
+  422  docker rmi $(docker images -q) -f
+  423  clear
+  424  docker images
+  425  clear
+  426  ifconfig -a
+  427  cd /etc/sysconfig
+  428  docker swarm init --advertise-addr 10.128.0.2
+  429  docker node ls
+  430  clear
+  431  docker service create --name webservice -p 80:80 nginx
+  432  docker service ls
+  433  docker node ls
+  434  docker service ps webservice
+  435  clear
+  436  docker node update --availability drain slave
+  437  docker node ls
+  438  docker service ps webservice
+  439  clear
+  440  docker node update --availability active slave
+  441  docker node ls
+  442  docker service ps webservice
+  443  docker service ls
+  444  docker service scale webservice-10
+  445  docker service scale webservice=10
+  446  docker service ls
+  447  docker service ls
+  448  docker service ps webservice
+  449  history
+  450  history > history_for_print.txt
