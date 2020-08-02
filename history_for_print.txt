@@ -448,3 +448,164 @@
   448  docker service ps webservice
   449  history
   450  history > history_for_print.txt
+  451  more  history_for_print.txt
+  452  clear
+  453  ls
+  454  git add history_for_print.txt
+  455  git commit -m "docker updates"
+  456  git push origin master
+  457  git push origin master -f
+  458  docker network ls
+  459  history
+  460  gcloud init
+  461  gcloud init
+  462  gcloud init
+  463  clear
+  464  gcloud init
+  465  gcloud init
+  466  gcloud init
+  467  gcloud container clusters create cluster1
+  468  kubectl cluster-info
+  469  kubectl cluster-info dump
+  470  clear
+  471  kubectl cluster-info dump --output-directory=/tmp/kube
+  472  cd /tmp/kube
+  473  ls
+  474  cat nides.json
+  475  cat nodes.json
+  476  clear
+  477  kubectl config view
+  478  clear
+  479  kubectl config view
+  480  clear
+  481  kubectl api-versions
+  482  clear
+  483  cd /tmp
+  484  vi pod.yaml
+  485  vi pod.yml
+  486  kubectl create -f pod.yml
+  487  vi pod.yml
+  488  kubectl create -f pod.yml
+  489  kubectl get pods
+  490  kubectl describes pods
+  491  kubectl describe pods
+  492  kubectl get pods
+  493  kubectl deletepod sample-pod
+  494  kubectl delete pod sample-pod
+  495  kubectl describe pods
+  496  kubectl get pods
+  497  vi pod.yml
+  498  vi pod.yml
+  499  vi pod1.yml
+  500  kubectl create -f pod1.yml
+  501  kubectl get pods
+  502  kubectl get pods
+  503  kubectl get pods
+  504  vi pod1.yml
+  505  kubectl delete pod sample-pod
+  506  kubectl create -f pod1.yml
+  507  kubectl get pods
+  508  vi pod1.yml
+  509  vi pod.yml
+  510  vi pod1.yml
+  511  vi pod.yml
+  512  kubectl create -f pod.yml
+  513  kubectl delete pod sample-pod
+  514  kubectl create -f pod.yml
+  515  kubectl get pods
+  516  kubectl delete pod sample-pod
+  517  vi pod.yml
+  518  kubectl create -f pod.yml
+  519  kubectl get pods
+  520  kubectl delete pod sample-pod
+  521  vi pod.yml
+  522  kubectl create -f pod.yml
+  523  kubectl get pods
+  524  vi pod.yml
+  525  kubectl delete pod sample-pod
+  526  kubectl create -f pod.yml
+  527  kubectl get pods
+  528  kubectl describe pods
+  529  clear
+  530  vi deploy1.yml
+  531  kubectl create -f deploy1.yml
+  532  vi deploy1.yml
+  533  kubectl create -f deploy1.yml
+  534  kubectl create -f deploy1.yml
+  535  vi deploy1.yml
+  536  kubectl create -f deploy1.yml
+  537  vi deploy1.yml
+  538  kubectl create -f deploy1.yml
+  539  vi deploy1.yml
+  540  kubectl create -f deploy1.yml
+  541  vi deploy1.yml
+  542  kubectl create -f deploy1.yml
+  543  vi deploy2.yml
+  544  kubectl create -f deploy2.yml
+  545  kubectl get pods
+  546  cler
+  547  clear
+  548  kubectl get pods
+  549  kubectl delete pod sample-pod
+  550  kubectl get pods
+  551  kubectl get pods
+  552  kubectl get pods
+  553  kubectl get pods
+  554  kubectl scale --replicas=8 -f deploy1.yml
+  555  kubectl scale --replicas=8 -f deploy2.yml
+  556  kubectl get pods
+  557  kubectl scale --replicas=2 -f deploy2.yml
+  558  kubectl get pods
+  559  kubectl get pods
+  560  clear
+  561  kubectl get pods
+  562  docker node ls
+  563  yes
+  564  clear
+  565  no
+  566  clear
+  567  cd /etc/sysconfig
+  568  docker node ls
+  569  ifconfig -a
+  570  docker swarm init --advertise-aadr 10.128.0.2
+  571  docker swarm init --advertise-addr 10.128.0.2
+  572  docker swarm init --advertise-addr 10.128.0.2
+  573  clear
+  574  service docker status
+  575  service docker start
+  576  service docker status
+  577  docker node ls
+  578  docker service ls
+  579  docker service ps webservice
+  580  clear
+  581  docker service scale webservice=3
+  582  docker service ps webservice
+  583  docker service ps webservice
+  584  clear
+  585  kubectl cluster-info
+  586  yum update
+  587  clear
+  588  service kubectl status
+  589  yum install -y kubectl 
+  590  service kubectl status
+  591  kubectls ls
+  592  kubectls log
+  593  kubectls status
+  594  service kubectl start
+  595  cd
+  596  service kubectl start
+  597  cd /tmp
+  598  ls
+  599  cd /tmp/kube
+  600  ls
+  601  service kubectl status
+  602  clear
+  603  history
+  604  cd home
+  605  cd
+  606  ls
+  607  cd /home
+  608  ls
+  609  cd errit3
+  610  ls
+  611  history > history_for_print.txt
